@@ -1,2 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@mixin img{
+        opacity: 0.9;
+        border-radius: 50%;
+        margin-left: 55px;
+        margin-top: 64px;
+        width: 60px;
+        height: 60px;
+}
+
+@mixin hr{
+    opacity: 0.25;
+    width: 46%;
+    margin-left: 170px;
+    margin-top: -35px;
+}
+@mixin wrapper{
+    width: 800px;
+    margin-left: 58.4%;
+    margin-top: -50px;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    letter-spacing: 3px;
+}
+@mixin hr2{
+    width: 5%;
+    height: 4px;
+    background: white;
+    opacity: 0.9;
+    border: none;
+    margin-left: 60.2%;
+    margin-top: -5px;
+}

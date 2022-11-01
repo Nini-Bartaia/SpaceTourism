@@ -45,6 +45,22 @@ hr{
     border: none;
     margin-left: 60.2%;
     margin-top: -5px;
+    animation-name: prev;
+     animation-duration: 1s;
+    
+}
+.anima{
+    animation-name: slidein;
+    animation-duration: 1s;
+    
+}
+.animati{
+    animation-name: crew;
+    animation-duration: 1s;
+}
+.techn{
+    animation-name: tech;
+    animation-duration: 1s;
 }
 .img3{
     opacity: 0.9;
@@ -58,3 +74,59 @@ hr{
 }
 
 
+@keyframes slidein{
+    from{
+        width: 5%;
+        margin-left: 60.2%;
+        
+    }
+    to{
+        width: 9%;
+        margin-left: 69%;
+    }
+}
+
+@keyframes prev{
+    from{
+        margin-left: 69%;
+        width: 9%;
+        
+    }
+    to{
+        width: 5%;
+        margin-left: 60.2%;
+    }
+}
+@keyframes crew{
+    from{
+        width: 5%;
+        margin-left: 60.2%;
+    }
+
+    to{
+        width: 5%;
+        margin-left: 81.2%;
+    }
+}
+@keyframes tech{
+    from{
+        width: 5%;
+        margin-left: 60.2%;
+    }
+
+    to{
+        width: 9%;
+        margin-left: 90%;
+    }
+}
+@keyframes dest{
+    from{
+        width: 5%;
+        margin-left: 60.2%;
+    }
+
+    to{
+        width: 9%;
+        margin-left: 69%;
+    }
+}
