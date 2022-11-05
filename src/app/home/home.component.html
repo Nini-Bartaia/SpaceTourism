@@ -3,21 +3,21 @@
  
  <hr>
 
- <div class="wrapper">
-    <div>
+ <div class="wrapper" id="div1">
+    <div class="div active">
         
-        <p class="para">00 &nbsp;HOME</p>
+        <p class="para ">00 &nbsp;HOME</p>
         
     </div>
-    <div>
+    <div class="div">
        
-        <p  class="para"  (click)="navigate()"  >01 &nbsp;DESTINATION</p>
+        <p  class="para"  (click)="navigate()">01 &nbsp;DESTINATION</p>
     </div>
-    <div>
+    <div class="div">
        
         <p  class="para" (click)="crew()">02 &nbsp;CREW</p>
     </div>
-    <div>
+    <div class="div">
        
         <p class="para" (click)="tech()">03 &nbsp;TECHNOLOGY</p>
     </div>
@@ -25,6 +25,8 @@
     
 
  </div>
- <hr class="hr2" id="hr2" #hr>
+ <hr class="hr2"  #hr  @hr2>
+
  <img src="assets/Group 16.png" alt="" class="img3">
  <img src="assets/Group.png" alt="" class="img4">
+  

@@ -21,8 +21,8 @@ export class CrewComponent implements OnInit {
   
   public dest(){
     this.route.navigate(['destination'])
-    this.hr.nativeElement.setStyle='animation-name:prev, animation-duration:1s'
-    console.log(this.hr)
+    // this.hr.nativeElement.setStyle='animation-name:prev, animation-duration:1s'
+    // console.log(this.hr)
     
   }
   public crew(){

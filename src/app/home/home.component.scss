@@ -19,6 +19,8 @@ hr{
     width: 46%;
     margin-left: 170px;
     margin-top: -35px;
+    // animation-name: prev;
+    // animation-duration: 1s;
 }
 .wrapper{
     width: 800px;
@@ -28,14 +30,24 @@ hr{
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.7742px);
     display: flex;
-    align-items: center;
+     align-items: center;
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     color:white;
     letter-spacing: 3px;
     div{
         cursor: pointer;
+        
     }
+
+    // .para{
+    //     display: inline-block;
+    //     margin-top: 35px;
+    // }
+    // .active{
+    //     border-bottom: 5px solid white;
+    //     transition: 1s ease;
+    // }
 }
 .hr2{
     width: 5%;
@@ -45,8 +57,8 @@ hr{
     border: none;
     margin-left: 60.2%;
     margin-top: -5px;
-    animation-name: prev;
-     animation-duration: 1s;
+     
+
     
 }
 .anima{
@@ -128,5 +140,6 @@ hr{
     to{
         width: 9%;
         margin-left: 69%;
+        
     }
 }

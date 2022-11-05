@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-technology',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechnologyComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route:Router) { }
 
   ngOnInit(): void {
   }
+
+
+public nav(){
+  this.route.navigate(['home'])
+}
+public nav1(){
+  this.route.navigate(['destination'])
+}
+public nav2(){
+  this.route.navigate(['crew'])
+}
+
 
 }

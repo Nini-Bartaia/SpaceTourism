@@ -21,7 +21,7 @@ const routes: Routes = [{
 },
 {
   path:'technology', component:TechnologyComponent
-}
+},
 ];
 
 @NgModule({

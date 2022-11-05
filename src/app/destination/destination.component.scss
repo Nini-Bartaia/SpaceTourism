@@ -1,10 +1,11 @@
 @import "src/styles.scss";
 .img1{
     width: 100%;
-    height: 1070px;
+    height: 1080px;
     position: absolute;
     left: 0%;
     right: 0%;
+    margin-top: -8px
 }
 
 .img2{
@@ -92,4 +93,138 @@ hr{
     }
 }
 
+ 
+.title{
+    width: 600px;
+    height: 34px;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 7%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.mars{
+       
+        width: 30%;
+        position: relative;
+        margin-left: 22%;
+        margin-top: 2%;
+        animation-name: planet;
+    animation-duration: 1s;
+}
+.none1{
+    display: none;
+    animation-name: planet;
+    animation-duration: 1s;
     
+}
+
+.wrapper2{
+    width: 650px;
+    height: 600px;
+    position: relative;
+    margin-left: 60%;
+    margin-top: -32%;
+
+    p{
+        color:#D0D6F9;
+        cursor: pointer;
+        
+    }
+    .child{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        
+        
+
+        .active{
+            border-bottom: 3px solid white;
+            border-radius: 4px;
+            transition: 0.2s ease;
+            color: white;
+            
+            
+        }
+        
+    }
+
+    .wrapper3{
+        width: 650px;
+        height: 520px;
+       
+        .moon{
+            font-size: 180px;
+            margin-left: 10%;
+            margin-top: -2%;
+            font-family: 'Roboto', sans-serif;
+        
+        }
+        .para{
+            font-size: 20px;
+            margin-top: -25%;
+            margin-left: 20px;
+            font-family: 'Roboto', sans-serif;
+        
+        }
+        .line{
+            width: 100%;
+            margin-top: 60px;
+            margin-left: 0px;
+        }
+         
+        .p1{
+            color: white;
+            font-size: 20px;
+            margin-left: 50px;
+            margin-top: 30px;
+            display: inline-block;
+            font-family: 'Roboto', sans-serif;
+        
+        }
+        .p2{
+            color: white;
+            font-size: 20px;
+            margin-left: 130px;
+            margin-top: 30px;
+            display: inline-block;
+            font-family: 'Roboto', sans-serif;
+        
+        }
+        .p3{
+            color: white;
+            font-size: 45px;
+            margin-left: 20px;
+            margin-top: 10px;
+            display: inline-block;
+            font-family: 'Roboto', sans-serif;
+        
+        }
+        .p4{
+            color: white;
+            font-size: 45px;
+            margin-left: 80px;
+            margin-top: 10px;
+            display: inline-block;
+            font-family: 'Roboto', sans-serif;
+        
+        }
+    
+    }
+    .none{
+        display: none;
+    }
+    
+
+
+    @keyframes planet {
+        from{
+            margin-left: 15%;
+        }
+        to{
+            margin-left: 22%;
+        }
+    }
+}
