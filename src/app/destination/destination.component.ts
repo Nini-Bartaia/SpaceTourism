@@ -43,6 +43,9 @@ export class DestinationComponent implements OnInit {
     // console.log(this.hr)
     
   }
+  public tech(){
+    this.route.navigate(['technology'])
+  }
 
   public mars(){
     const div=document.querySelectorAll('.wrapper3')[0]

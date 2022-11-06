@@ -56,4 +56,90 @@ hr{
     }
 }
 
+.title{
+width: 600px;
+height: 34px;
+position: relative;
+margin-left: 10%;
+margin-top: 7%;
+color: white;
+font-size: 40px;
+font-family: 'Roboto', sans-serif;
+}
+.par{
+ 
+height: 400px;
+position: relative;
+margin-left: 10%;
+ margin-top: 5%;
+color: white;
+font-size: 35px;
+font-family: 'Roboto', sans-serif;
+
+.commander{
+    font-size: 40px;
+    color: white;
+    line-height: 37px;
+    opacity: 0.5;
+    font-family: 'Bellefair';
+}
+.name{
+       
+        font-size: 56px;
+        line-height: 64px;
+        font-family: 'Bellefair';
+        color: #FFFFFF;
+        margin-top: -10px;
+}
+
+.text{
+
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: #D0D6F9;
+}
+
+}
+
+.none{
+    display: none;
+}
+
+.pic{
+    position: relative;
+    margin-left: 64%;
+    margin-top: -34.5%;
+    width: 35%;
+}
+.picnone{
+    display: none;
+}
+
+.wrapper2{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 10%;
+    top: 85%;
+    display: flex;
+    justify-content: space-between;
+
+    div{
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        border: 2px solid white;
+        background-color: white;
+        opacity: 0.17;
+    }
+
+    .active{
+        background-color: white;
+        opacity: 1;
+        transition: 1s ease;
+    }
+
+}
  
